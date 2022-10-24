@@ -1,0 +1,58 @@
+.container 
+{
+	width: 1100;
+	margin: 0 auto;
+	margin-left: 100px;
+}
+
+.bigbox
+{
+	width: 400px;
+	height: 400px ;
+	background-color: red;
+	margin: 0 auto;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 55px 49px 108px 51px rgba(0,0,0,0.86);
+-webkit-box-shadow: 55px 49px 108px 51px rgba(0,0,0,0.86);
+-moz-box-shadow: 55px 49px 108px 51px rgba(0,0,0,0.86);
+}
+
+.smallbox
+{
+	width: 100px;
+	height: 100px;
+	font-size: 20px;
+	border-radius: 50%;
+	background-color: yellow;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	transition-property: all;
+	transition-duration: 3s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 1s;
+}
+
+div
+{
+	font-size: 50px;
+	box-shadow: 55px 49px 278px 159px rgba(0,0,0,0.43);
+-webkit-box-shadow: 55px 49px 278px 159px rgba(0,0,0,0.43);
+-moz-box-shadow: 55px 49px 278px 159px rgba(0,0,0,0.43);
+}
+
+h2  
+{
+	border: 2px solid black;
+	border-radius: 50%;
+}
+.smallbox:hover
+ {
+	background-color: black;
+	width: 200px;
+	height: 200px;
+	transform:translate(-50%, -50%) rotate(90deg); 
+}
